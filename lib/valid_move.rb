@@ -5,6 +5,8 @@ def valid_move?(board, index)
   else
     return FALSE
   end
+end
+end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 def position_taken?(board, index)
@@ -12,4 +14,6 @@ def position_taken?(board, index)
     return TRUE
   else if board[index] == "X" || "O"
     return FALSE
+end
+end
 end
